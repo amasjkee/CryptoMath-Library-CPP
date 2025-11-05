@@ -21,3 +21,23 @@
 2.  **Портфолио:** Демонстрация глубоких навыков в C++, алгоритмах и применении формальных методов в разработке ПО — ключевых компетенций для FinTech, HFT, Blockchain и кибербезопасности.
 
 Проект вдохновлен алгеброй КБ МИЭМ НИУ ВШЭ
+
+#### Документация
+
+Документация проекта автоматически генерируется с помощью Doxygen и публикуется на GitHub Pages.
+
+**Онлайн документация:** [https://amasjkee.github.io/CryptoMath-Library-CPP/](https://amasjkee.github.io/CryptoMath-Library-CPP/)
+
+**Локальная генерация:**
+```bash
+doxygen Doxyfile
+# Откройте docs/html/index.html в браузере
+```
+
+**Просмотр интерактивного режима:**
+```bash
+make interactive
+# или
+g++ -std=c++20 -I./include -o interactive examples/interactive.cpp
+./interactive
+```
