@@ -1,1 +1,76 @@
+# Скомпилированные файлы
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Исполняемые файлы (без расширения)
+test_basic
+test_detailed
+interactive
+test_*
+demo_*
+
+# Директории сборки
 build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# IDE файлы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.vs/
+
+# Clangd и другие инструменты
+.clangd
+compile_commands.json
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.bak
+*.orig
+
+# Профилирование
+*.prof
+*.gcov
+*.gcda
+*.gcno
+
+# Отладочная информация
+*.dSYM/
+*.pdb
+
+# Документация (сгенерированная)
+docs/html/
+docs/latex/
+# Doxyfile - конфигурация, должна быть в репозитории
+
+# Временные файлы Python (если есть скрипты)
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.pytest_cache/
+
+# Другие временные файлы
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Кеш и временные директории
+.cache/
+*.cache
+.ccls-cache/
